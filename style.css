@@ -94,7 +94,7 @@ nav {
 }
 
 .section1 {
-  background-image: url(./Assets2/magicpattern-mesh-gradient-1722524507236.png);
+  background: linear-gradient(rgb(59, 123, 61),rgb(254, 112, 3));
   background-size: cover;
   background-position: center;
 }
