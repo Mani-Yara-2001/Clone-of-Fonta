@@ -46,6 +46,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+.d-flex #logo{
+  height: 40px;
+  width: 40px;
+}
 
 .d-flex-c {
   display: flex;
