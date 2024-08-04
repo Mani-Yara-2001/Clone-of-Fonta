@@ -247,6 +247,7 @@ nav {
   }
   .ri-menu-line {
     font-size: 7vw;
+    display:block;
   }
   .section1 h1 {
     font-size: 32vw;
