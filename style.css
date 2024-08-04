@@ -46,7 +46,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.d-flex #logo{
+#logo{
   height: 40px;
   width: 40px;
 }
