@@ -249,6 +249,9 @@ nav {
     font-size: 7vw;
     display:block;
   }
+  .section1 {
+  background: linear-gradient(rgb(59, 123, 61),rgb(254, 112, 3));
+  } 
   .section1 h1 {
     font-size: 32vw;
   }
