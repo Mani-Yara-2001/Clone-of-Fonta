@@ -41,15 +41,10 @@ body {
   /* background-color: black; */
 }
 
-
 .d-flex {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.d-flex #logo{
-  height: 40px;
-  width: 40px;
 }
 
 .d-flex-c {
@@ -95,16 +90,14 @@ nav {
 }
 
 .section1 {
-  /* background-image: url(./Assets2/magicpattern-mesh-gradient-1722524507236.png); */
-  background: linear-gradient(rgb(59, 123, 61),rgb(254, 112, 3));
+  background-image: url(./Assets2/magicpattern-mesh-gradient-1722524507236.png);
   background-size: cover;
   background-position: center;
 }
 
 .section1 h1 {
   font-size: 22vw;
-  color: rgb(237, 233, 227)
-
+  color: #fff;
 }
 
 .section1 img {
@@ -167,15 +160,12 @@ nav {
 .mainHeading {
   font-size: 3vw;
   color: rgb(252, 145, 13);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: oblique;
 }
 
 .mainP {
   font-size: 1vw;
   color: #919191;
   font-weight: 400;
-  font-style: italic;
 }
 
 .section2 .rght button {
@@ -196,7 +186,7 @@ nav {
 
 .section3 .card {
   width: 25vw;
-  height: 80vh;
+  height: 70vh;
   background-color: #fff2e5;
   padding: 1vw;
   gap: 2vh;
@@ -215,21 +205,21 @@ nav {
   width: 100%;
 }
 
-
-
+.card .mainHeading {
+  color: #000;
+}
 
 .card button {
   padding: 1vw 2vw;
   background-color: rgb(245, 142, 64);
   border-radius: 10px;
-  
 }
 
 #coca {
-  width: 10vw;
+  width: 12vw;
 }
 #yellow {
-  width: 15vw;
+  width: 18vw;
 }
 
 #pineapplecut,
@@ -239,9 +229,9 @@ nav {
 #resp-orange {
   width: 50vw;
 }
-/* #resp-fanta {
-  width: 80vw;
-} */
+#resp-fanta {
+  width: 90vw;
+}
 #resp-orange,
 #resp-fanta {
   display: none;
@@ -305,6 +295,7 @@ nav {
   }
   .section2 .rght button {
     padding: 5vw 10vw;
+    border-radius: 6px;
   }
   .section3 {
     flex-direction: column;
@@ -313,15 +304,13 @@ nav {
   .section3 .card {
     width: 80vw;
     padding: 5vw;
-    height: 140vh;
   }
-  
   .card button {
     padding: 5vw 10vw;
-    border-radius: 10p;
+    border-radius: 6px;
   }
   #coca {
-    width: 30vw;
+    width: 37vw;
   }
   #pineapplecut,
   #orangefruit {
@@ -332,7 +321,7 @@ nav {
     width: 75vw;
   }
   #yellow {
-    width: 43vw;
+    width: 57vw;
   }
   #resp-orange,
   #resp-fanta {
